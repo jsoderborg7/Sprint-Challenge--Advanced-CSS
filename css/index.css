@@ -281,7 +281,7 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walk .walk-text .btn button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,13 +293,14 @@ footer {
   border-radius: 5px;
   color: #FFFFFF;
   margin-bottom: 7%;
+  cursor: pointer;
 }
-.home .walk .walk-text .btn:hover {
+.home .walk .walk-text .btn button:hover {
   background-color: #FFFFFF;
   color: #22283A;
 }
 @media (max-width: 500px) {
-  .home .walk .walk-text .btn {
+  .home .walk .walk-text .btn button {
     width: 100%;
     padding: 5%;
     margin: auto;
@@ -320,4 +321,62 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.signUp .intro img {
+  border-radius: 5px;
+  margin-top: 13%;
+}
+@media (max-width: 500px) {
+  .signUp .intro img {
+    width: 100%;
+    margin-top: 20%;
+  }
+}
+.signUp form {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+.signUp input {
+  width: 70%;
+  padding: 10px;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+.signUp select {
+  width: 70%;
+  padding: 10px;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+.signUp label {
+  font-size: 2rem;
+  font-family: 'Russo One', sans-serif;
+  color: #23293B;
+}
+.signUp .middleContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  width: 30%;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 5%;
+  margin-right: 5%;
+  cursor: pointer;
+}
+.signUp button:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
 }
