@@ -192,6 +192,10 @@ p {
   color: #454A59;
   padding: 0 1.5%;
 }
+.navBar nav a:hover {
+  color: #072375;
+  font-weight: bold;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
