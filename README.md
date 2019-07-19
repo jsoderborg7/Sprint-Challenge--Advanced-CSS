@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+	Adaptive websites are set up to fit the viewer’s screen at specific sizes, while fully responsive websites change to fit the screen at any size.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+	Mobile first design means the initial code written is for a mobile screen, and can be adapted later for larger screens. Desktop first is the opposite, large screen first and then adapted for smaller screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+	Setting the font size to 62.5% gives us the equivalent of a base of 10px font size. We can use rems to adjust that base size throughout the page, for example, 2rems would be the equivalent of 20px font size. This is useful to make the text on the page more accessible as it will change with accessibility settings. If you use px instead of %, the text will stay the same size no matter what.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+	I would describe preprocessing as css with superpowers. A preprocessor can do everything vanilla css can do, but it can do more! The additional features you get with a preprocessor make work easier for a developer. These include nesting (being able to put all the styles and parts from a single element into one place, mixins (a pre-determined style that can be applied to many elements, and can be changed by changing a single value instead of every element it’s applied to), and imports (this allows you to make a different stylesheet for every piece of your page, and bring them all together into a master sheet. This makes finding the pieces you need so much easier!)
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+	Currently, my favorite feature of preprocessing is importing and being able to have separate style sheets for the different parts of my page. I think I will love it even more when I start working on bigger projects with thousands of lines of code. Currently, mixins are a little hard for me to grasp, but I’m getting there. I think it will be easier to see the need when I work on bigger projects.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
